@@ -11,7 +11,7 @@ function loadAclib() {
 
       window.aclib.runBanner({
           zoneId: '11139386',
-          renderIn: document.getElementById("side_banner")
+          renderIn: "#side_banner"
       });
     }
   };
