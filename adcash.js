@@ -8,6 +8,11 @@ function loadAclib() {
       window.aclib.runPop({
         zoneId: "11139394",
       });
+
+      window.aclib.runBanner({
+          zoneId: '11139386',
+          renderIn: document.getElementById("side_banner")
+      });
     }
   };
 
